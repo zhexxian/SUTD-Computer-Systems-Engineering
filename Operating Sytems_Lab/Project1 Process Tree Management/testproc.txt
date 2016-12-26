@@ -1,0 +1,5 @@
+echo wazzup:4:stdin:echo2-out.txt
+cat:3:echo-out.txt:cat-1.txt
+echo hi there:1:stdin:echo-out.txt
+cat cat-1.txt cat-2.txt:none:stdin:sink.txt
+cat:3:echo2-out.txt:cat-2.txt
